@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/ten_dp"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activities.DashboardActivity"
+    tools:showIn="@layout/activity_dashboard">
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_text_height"
+        android:background="@drawable/green_square"
+        android:hint="@string/email_address"
+        android:inputType="textEmailAddress"
+        android:padding="@dimen/five_dp"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/edit_text_height"
+        android:layout_marginTop="@dimen/fifteen_dp"
+        android:background="@drawable/green_square"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="@dimen/five_dp"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/btnGetUsersRepo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fifteen_dp"
+        android:text="Get User's Repo"
+        android:textColor="@color/white"
+        android:theme="@style/CustomButtonTheme" />
+
+    <Button
+        android:id="@+id/btnGetTrendingRepo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fifteen_dp"
+        android:text="Get Trending Repo"
+        android:textColor="@color/white"
+        android:theme="@style/CustomButtonTheme" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/row_repo" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerViewTrending"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/row_repo"
+        android:visibility="gone"/>
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+    </WebView>
+</LinearLayout>

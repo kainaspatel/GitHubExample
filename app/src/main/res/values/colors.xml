@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#47B968</color>
+    <color name="colorPrimaryDark">#4CAF50</color>
+    <color name="colorPink">#FF4081</color>
+    <color name="colorAccent">#47B968</color>
+    <color name="colorPrimaryTransparent">#7047B968</color>
+    <color name="bg_drawer">#F5F5F5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#F2F2F2</color>
+    <color name="black">#000</color>
+    <color name="gray_border">#D8D8D8</color>
+    <color name="gray_dark">#949393</color>
+
+    <color name="gray_transparent">#CCF2F2F2</color>
+    <color name="drawer_text_gray">#1D2323</color>
+    <color name="drawer_devider">#80FFFFFF</color>
+    <color name="drawer_selected">#1A000000</color>
+
+    <color name="dark_blue">#2e9cce</color>
+    <color name="light_blue">#4eb7e7</color>
+    <color name="green">#78BF65</color>
+    <color name="red_lime">#CA3131</color>
+    <color name="red_light">#BE495f</color>
+    <color name="green_light">#31CA6F</color>
+    <color name="order_other">#E1823A</color>
+    <color name="order_com">#E1823A</color>
+    <color name="order_can">#E1823A</color>
+
+    <color name="blue">#30a5ff</color>
+    <color name="yellow">#FFC73E</color>
+    <color name="red">#FF0000</color>
+    <color name="orange">#E1823A</color>
+
+
+</resources>

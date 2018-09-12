@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llParentNoData"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:clickable="false"
+    android:fillAfter="true"
+    android:fillEnabled="true"
+    android:focusableInTouchMode="false"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:visibility="gone">
+
+    <ImageView
+        android:id="@+id/ivNoData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvNOdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/twenty_dp"
+        android:gravity="center"
+        android:text="No data found!"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/twenty_sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/btnRetry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/twenty_dp"
+        android:text="Retry"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="@dimen/twenty_sp"
+        android:theme="@style/CustomButtonTheme"
+        android:visibility="gone" />
+
+
+</LinearLayout>
